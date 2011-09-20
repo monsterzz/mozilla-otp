@@ -1,0 +1,45 @@
+<h1>One Time Password</h1>
+<div class="b-form">
+	<div class="b-field">
+		<label for="secret">Secret:</label>
+		<input type="text" value="" id="secret" size="20" maxlength="20"/>
+	</div>
+	<div class="b-field">
+		<label for="pin">PIN:</label>
+		<input type="password" value="" id="pin" size="4" maxlength="4"/>
+	</div>
+	<div class="b-submit">
+		<input id="generate" type="button" value="Generate"/>
+	</div>
+</div>
+
+<style>
+	* {
+		font: 13px/1em sans-serif;
+	}
+
+	h1 {
+		font-size: 120%;
+		font-weight: bold;
+		padding: 8px;
+	}
+
+	.b-form {
+		padding: 0 8px;
+	}
+
+		.b-field {
+			overflow: hidden;
+			margin-bottom: 5px;
+		}
+
+			.b-field label {
+				width: 5em;
+				display: inline-block;
+			}
+
+		.b-submit {
+			padding-left: 5em;
+		}
+
+</style>
