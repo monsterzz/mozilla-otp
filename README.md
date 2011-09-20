@@ -1,5 +1,5 @@
-This is the motp add-on.  It contains:
+This is the Mozilla OTP add-on. Generate password in one click from your favorite browser!
 
-* A program (lib/main.js).
-* A few tests.
-* Some meager documentation.
+Build instructions:
+    * Install [Mozilla Add-on SDK](https://addons.mozilla.org/en-US/developers/docs/sdk/1.1/dev-guide/addon-development/installation.html).
+    * Use `cxf run` to run addon or `cxf xpi` to build XPI-package.
