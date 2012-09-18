@@ -2,7 +2,7 @@
     "name": "motp", 
     "license": "GPL 2.0", 
     "author": "", 
-    "version": "1.0", 
+    "version": "1.1", 
     "fullName": "mOTP", 
     "id": "jid1-bx0kNvfJip1nXw", 
     "description": "Mobile one time password generator"
