@@ -2,5 +2,5 @@ This is the Mozilla OTP add-on. Generate password in one click from your favorit
 
 Build instructions:
 
-* Install [Mozilla Add-on SDK](https://addons.mozilla.org/en-US/developers/docs/sdk/1.1/dev-guide/addon-development/installation.html)
-* Use `cfx run` to run addon or `cfx xpi` to build XPI-package.
+* Install [Mozilla Add-on SDK](https://developer.mozilla.org/en-US/Add-ons/SDK)
+* Use `jpm run` to run addon or `jpm xpi` to build XPI-package.
